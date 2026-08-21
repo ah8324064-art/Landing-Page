@@ -6,10 +6,13 @@ body {
     
 
 }
+/* Header Section */
 
 .header {
+    height: 450px;
     background-color: #1F2937;
     padding-bottom:80px ;
+    flex:1;
     display: flex;
     flex-direction: column;
    
@@ -26,7 +29,7 @@ body {
 
 .header-links {
     display: flex ;
-    gap:12px;
+    gap:16px;
     font-size: 18px;
 
 }
@@ -37,12 +40,13 @@ body {
     margin-top: 16px;
 }
 
+/* Hero Section */
 .hero{
 
    
     display: flex;
     justify-content: space-evenly;
-    margin: 0 70px;
+    margin: 0 60px;
     
    
     
@@ -78,6 +82,118 @@ body {
 }
 
 
+.button{
+    background-color:#3882F6;
+    width:100px;
+    border-radius: 6px;
+    padding: 6px;
+    
+}
+
+/* Information Section*/
+
+.information {
+    height: 450px;
+   text-align: center;
+   
+   
+}
+.info-head{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 36px;
+    
+}
+.container {
+    
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 140px;
+    
+    
+}
+ .box {
+    border: 3px solid lightskyblue;
+    border-radius: 10px;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+   
+}
+
+.info-text{
+    font-size: 12px;
+   padding: 0 10px;
+}
+
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 325px;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.citation {
+    align-self: flex-end;
+    font-size: 20px;
+    margin-right: 40px;
+    
+}
+
+/* Call to Action */
+
+
+.call-block{
+    color: ;
+    background-color: #3882F6;
+    margin: 55px auto;
+    border-radius: 8px;
+    width: 700px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.call-statement {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    ;
+}
+
+.button#two {
+    border:1px solid #F9FAF8;
+    color: #E5E7EB;
+    
+
+}
+
+
 
  li {
     list-style:none;
@@ -90,11 +206,5 @@ body {
     text-decoration: none;
     color: #E5E7EB;
     
-}
-.button#one{
-    background-color:#3882F6;
-    width:100px;
-    border-radius: 6px;
-    padding: 6px;
     
 }
