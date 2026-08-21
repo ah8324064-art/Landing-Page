@@ -78,7 +78,8 @@ body {
 .image {
     
     background-color: black;
-    
+    width:450px;
+ 
 }
 
 
@@ -167,7 +168,7 @@ body {
 
 
 .call-block{
-    color: ;
+    
     background-color: #3882F6;
     margin: 55px auto;
     border-radius: 8px;
@@ -192,6 +193,14 @@ body {
     
 
 }
+ /* Footer Section */
+ .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 24px; }
+
+ 
 
 
 
